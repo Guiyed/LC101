@@ -7,7 +7,7 @@ SELECT DISTINCT country FROM directors GROUP BY country;
 SELECT first, last FROM directors WHERE country='France';
 
 --3. What is the date of the first time someone viewed one of Sarah's movies?
-SELECT date_viewed FROM `viewings` GROUP BY date_viewed ASC LIMIT 1;
+SELECT date_viewed FROM `viewings` ORDER BY date_viewed ASC LIMIT 1;
 -- or
 SELECT MIN(date_viewed) FROM viewings;
 
