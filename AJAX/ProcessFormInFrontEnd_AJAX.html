@@ -1,0 +1,25 @@
+
+// This code goes in the View
+
+$('form#studentForm').submit(function (e) {
+  e.preventDefault();
+
+  let formData = new Object();
+  formData.Name = $(this).find("#Name").val();
+  formData.Age = $(this).find("#Age").val();
+  formData.Gender = $(this).find("#Gender").val();
+
+  $.ajax({
+      url: "/Student/Add",
+      type: "Post",
+      data: formData,
+      success: function (data) {
+          $("#AddedStudents").append(`
+              ${ data.name} is a ${data.age} year old ${data.gender } <br>
+          `);
+      }
+  });
+});
+
+
+// In the Controller we need to replace the IAction Method with an Object Method, create an AJAX Object, add Values to Data and then return the Object. 

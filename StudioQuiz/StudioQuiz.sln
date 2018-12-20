@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudioQuiz", "StudioQuiz\StudioQuiz.csproj", "{92254100-BF00-4C4C-89B2-4B330E818066}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleQuiz", "ConsoleQuiz\ConsoleQuiz.csproj", "{A470930B-9006-4566-9AAD-F85D4C2BE84C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92254100-BF00-4C4C-89B2-4B330E818066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92254100-BF00-4C4C-89B2-4B330E818066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92254100-BF00-4C4C-89B2-4B330E818066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92254100-BF00-4C4C-89B2-4B330E818066}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A470930B-9006-4566-9AAD-F85D4C2BE84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A470930B-9006-4566-9AAD-F85D4C2BE84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A470930B-9006-4566-9AAD-F85D4C2BE84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A470930B-9006-4566-9AAD-F85D4C2BE84C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40AA4619-5B05-4B7E-8B5D-3A68B50D46D9}
+	EndGlobalSection
+EndGlobal

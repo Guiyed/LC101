@@ -1,0 +1,26 @@
+.counterbox {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+#buttons {
+    display: grid;
+    max-width: 200px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#buttons .button {
+    border-radius: 5px;
+    border: 0;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.button#add{ background-color: green; }
+.button#remove{ background-color: red; }
+.button#reset{ background-color: black; }
+.button{ color: white; }
